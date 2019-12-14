@@ -30,7 +30,7 @@ public class BaseClassCRM  {
 	public void setUpSuite() throws Throwable {
 		Reporter.log("setting up reports & test is getting redy", true); // we can also use log4j
 		 excel = new ExcelDataProvider();
-		 // this is amit message
+		 
 		
 			config= new ConfigDataProvider();
 			
